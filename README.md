@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/icon-duochart.webp" width="128" alt="DuoChart">
+  <img src="images/icon-duochart.png" width="128" alt="DuoChart">
 </p>
 
 <h1 align="center">DuoChart</h1>
@@ -21,11 +21,11 @@
 
 ---
 
-## This is my game.
+## Overview
 
-DuoChart is a rhythm game I made because I wanted one that felt at home on Apple devices. Notes race down a five-lane highway in time with the music, and you hit each one as it reaches the frets. When a song has a music video, it plays behind the highway. When it has lyrics, they light up as you go.
+DuoChart is a rhythm game designed for Apple devices. Notes travel down a five-lane highway in time with the music and are played as they reach the frets. When a song includes a music video, it plays behind the highway; when it includes lyrics, they are shown line by line as the song plays.
 
-It's free. Download it if you'd like.
+DuoChart is free. It is not available on the App Store and is distributed here for self-signed installation.
 
 <p align="center">
   <img src="images/duochart-phone-play-subway-1.webp" width="260" alt="Playing The Subway, with the music video behind the highway.">
@@ -35,13 +35,13 @@ It's free. Download it if you'd like.
   <img src="images/duochart-phone-play-goodluck-1.webp" width="260" alt="Playing Good Luck, Babe!, at an eight times multiplier.">
 </p>
 
-## Bring your own songs.
+## Songs
 
-DuoChart plays standard rhythm game song folders: a `.chart` or `.mid` file with the song's audio, and optionally its album art and video. If you already have a song library from another game, it works as it is. No songs are included.
+DuoChart plays standard rhythm game song folders: a `.chart` or `.mid` file with the song's audio, and optionally album art and a video. Existing song libraries from other rhythm games work without changes. No songs are included.
 
-**On iPhone,** open Songs, tap **Import**, and choose one or more song folders in Files. You can also drop folders into **On My iPhone › DuoChart › Songs**.
+**iPhone:** open Songs, tap **Import**, and choose one or more song folders in Files. Folders can also be copied to **On My iPhone › DuoChart › Songs**.
 
-**On Mac,** point DuoChart at your songs folder in Settings.
+**Mac:** choose a songs folder in Settings.
 
 <p align="center">
   <img src="images/import.gif" width="300" alt="Importing a song: open Songs, tap Import, choose a folder in Files, and it appears in the library.">
@@ -55,9 +55,9 @@ DuoChart plays standard rhythm game song folders: a `.chart` or `.mid` file with
   <img src="images/duochart-phone-menu.webp" width="260" alt="The main menu.">
 </p>
 
-## Install it.
+## Installation
 
-DuoChart isn't on the App Store, so you sign it yourself. It's quick.
+Because DuoChart is not distributed through the App Store, each copy is signed by the person installing it.
 
 ### iPhone
 
@@ -65,13 +65,13 @@ DuoChart isn't on the App Store, so you sign it yourself. It's quick.
 2. Install it with a sideloading app such as [AltStore](https://altstore.io), [SideStore](https://sidestore.io) or [Sideloadly](https://sideloadly.io), signed with your own Apple Account.
 3. If iOS asks, turn on **Developer Mode** in Settings › Privacy & Security, and trust your Apple Account in Settings › General › VPN & Device Management.
 
-With a free Apple Account, apps you sign yourself expire after seven days. Refresh it in your sideloading app to keep playing; your songs and scores stay put.
+Apps signed with a free Apple Account expire after seven days. Refresh DuoChart in the sideloading app to continue playing; songs and scores are kept.
 
 ### Mac
 
 1. Download **DuoChart-Mac.zip** from the [latest release](https://github.com/deoxylabs/duochart/releases/latest) and open it.
 2. Move **DuoChart** to your Applications folder.
-3. The first time, Control-click DuoChart and choose **Open**, then **Open** again. If macOS still won't open it, go to System Settings › Privacy & Security and choose **Open Anyway**.
+3. On first launch, Control-click DuoChart and choose **Open**, then **Open** again. If macOS still blocks it, go to System Settings › Privacy & Security and choose **Open Anyway**.
 
 <p align="center">
   <img src="images/duochart-mac-library.webp" width="420" alt="DuoChart for Mac, showing the song library.">
@@ -79,20 +79,20 @@ With a free Apple Account, apps you sign yourself expire after seven days. Refre
   <img src="images/duochart-mac-song.webp" width="420" alt="DuoChart for Mac, showing a song card.">
 </p>
 
-## Good to know.
+## Details
 
 | | |
 | --- | --- |
-| **Requires** | iOS 26 or later on iPhone. macOS 26 or later on Mac. |
-| **Controls** | The fretboard on your iPhone's screen, or D F J K L on your Mac's keyboard (you can change the keys). |
-| **Calibration** | On iPhone, calibrate once in Settings and every song is timed to your setup. |
-| **Chart editor** | On Mac, write a chart for any song by playing along, slowed down. |
-| **Scores** | Your best on every song is kept on your device. You can see the leaderboards, but copies you sign yourself don't post to them: there's no way to tell their scores from made-up ones. |
-| **Game Center** | Not available in copies you sign yourself. |
+| **Requirements** | iOS 26 or later on iPhone. macOS 26 or later on Mac. |
+| **Controls** | The on-screen fretboard on iPhone. D F J K L on a Mac keyboard, with keys that can be reassigned. |
+| **Calibration** | On iPhone, a one-time calibration in Settings times every song to the device and audio setup. |
+| **Chart editor** | On Mac, charts can be written for any song by playing along at reduced speed. |
+| **Scores** | Best scores are kept on the device. On iPhone, each run is checked note by note against the chart before it is posted to that song's leaderboard. |
+| **Game Center** | Not available in self-signed copies. |
 | **Source code** | Not published. |
 
 ## About
 
-DuoChart is made by [Deoxy Labs](https://deoxylabs.com), an independent software company in New South Wales, Australia and Texas, USA. Questions or problems? Open an [issue](https://github.com/deoxylabs/duochart/issues).
+DuoChart is developed by [Deoxy Labs](https://deoxylabs.com), an independent software company based in New South Wales, Australia and Texas, USA. Questions and problem reports can be filed as [issues](https://github.com/deoxylabs/duochart/issues).
 
-Song charts, audio and videos belong to their owners. DuoChart doesn't include or distribute any music.
+Song charts, audio and videos remain the property of their respective owners. DuoChart does not include or distribute music.
